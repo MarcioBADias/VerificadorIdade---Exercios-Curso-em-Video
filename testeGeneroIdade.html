@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="testeGeneroIdade.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Insira suas informações abaixo:</h2>
+            <p>Ano de Nascimento:
+            <input type="number" name="anoNasc" id="anoNasc" min="0"></p>
+   
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="mas">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+                <input type="button" value="Verificar" id="button" onclick="verificar()">
+                
+            <div id="res"> <strong> Preencha os dados para ver o resultado </strong></div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; Curso em Vídeo</p>
+    </footer>
+    <script src="testeGeneroIdade.js"></script>
+</body>
+</html>

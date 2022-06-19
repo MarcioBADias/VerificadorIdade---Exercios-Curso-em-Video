@@ -1,0 +1,42 @@
+body {
+    background: radial-gradient(rgb(98, 7, 65), rgb(206, 106, 200));
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+main {
+    background: white;
+    border-radius: 10px;
+    width: 640px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+
+section h2 {
+    text-align: center;
+}
+
+div {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+#foto {
+    border-radius: 200px;
+    width: 200px;
+    margin: 20px;
+    display: block;
+    position: relative;
+    left: 30%;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
